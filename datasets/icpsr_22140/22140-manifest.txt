@@ -1,0 +1,102 @@
+File Manifest for ICPSR 22140
+
+Morris, Martina, and Richard Rothenberg. HIV Transmission Network Metastudy
+Project: An Archive of Data From Eight Network Studies, 1988--2001.
+ICPSR22140-v1. Ann Arbor, MI: Inter-university Consortium for Political and
+Social Research [distributor], 2011-08-09.
+http://doi.org/10.3886/ICPSR22140.v1
+
+
+Study-level Documentation
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    22140-descriptioncitation.pdf       -       -         -       2014-07-04  -
+
+    22140-related_literature.txt        -       -         -       daily       -
+
+    22140-manifest.txt                  -       -         -       daily       -
+
+    22140-Documentation.pdf             -       -         -       2011-08-09  9929ee6f9de79dc6f017a37afce39aa9
+
+    22140-Questionnaire.pdf             -       -         -       2011-08-09  6285d17a61afb055c0c367a6f196fbb4
+
+
+DS0001 Persons
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    22140-0001-Codebook.pdf             -       -         -       2011-08-09  811bbc84ad5bbfb480118f97f4cab0ed
+
+    22140-0001-Data.dta                 -       49,415    34      2011-08-09  a001acbc7c75b01b7a4472f745fecada
+
+    22140-0001-Data.sav                 -       49,415    34      2011-08-09  2f63a31ddc985c66eeed859226751673
+
+    22140-0001-Data.stc                 -       49,415    34      2011-08-09  aacdd9e149c6ca8beecc69e933f9d849
+
+    22140-0001-Data.tsv                 -       49,415    34      2011-08-09  778412a5153642a577c2a3dafb1e6318
+
+    22140-0001-Data.txt                 133     49,415    34      2011-08-09  c02149763fa637951aede95a23310c6e
+
+    22140-0001-Setup.dct                -       -         -       2011-08-09  70d27d1e2f9d7ad854dc264061bc30fe
+
+    22140-0001-Setup.do                 -       -         -       2011-08-09  36ce6df367a1ab26ac60a16781a47fde
+
+    22140-0001-Setup.sas                -       -         -       2011-08-09  ed409c477ac47fa1e359ec7bd5a0cb41
+
+    22140-0001-Setup.sps                -       -         -       2011-08-09  978b906d1be323a4b5c001e39ee1d797
+
+
+DS0002 Pairs of Persons -- Egodyads
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    22140-0002-Codebook.pdf             -       -         -       2011-08-09  1aea4dc117ff34b038c336f555feee20
+
+    22140-0002-Data.dta                 -       85,890    155     2011-08-09  74d5a962edaa5a77cb3bc47f7cfeb760
+
+    22140-0002-Data.sav                 -       85,890    155     2011-08-09  e0d5dad7c118c0508ab71a1621a8c3f2
+
+    22140-0002-Data.stc                 -       85,890    155     2011-08-09  96fa0845f780f0c0b01ddbab024cea99
+
+    22140-0002-Data.tsv                 -       85,890    155     2011-08-09  66b6dbd0c2161d0039ab23f20842cfa6
+
+    22140-0002-Data.txt                 584     85,890    155     2011-08-09  7f6926cd325f4e222c113f6923e7312b
+
+    22140-0002-Setup.dct                -       -         -       2011-08-09  925bd2731d5cbd842bee759784136a0f
+
+    22140-0002-Setup.do                 -       -         -       2011-08-09  3213d2c835b9786a568ae473658e9bb7
+
+    22140-0002-Setup.sas                -       -         -       2011-08-09  257823534cfff7768285cbe8a5589e99
+
+    22140-0002-Setup.sps                -       -         -       2011-08-09  17ff69065f76294fd6eddc0a919b9eb1
+
+
+DS0003 Pairs of Persons -- Altdyads
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    22140-0003-Codebook.pdf             -       -         -       2011-08-09  54da5ddc062f06c2f5ed5ded1ebb8fbc
+
+    22140-0003-Data.dta                 -       121,027   155     2011-08-09  4891646d2193d5efa42aa5c9cc071029
+
+    22140-0003-Data.sav                 -       121,027   155     2011-08-09  0c1a1e146d7d7f151eff5b821b3beecb
+
+    22140-0003-Data.stc                 -       121,027   155     2011-08-09  449f28654bd04e742ea6550a5beaa31b
+
+    22140-0003-Data.tsv                 -       121,027   155     2011-08-09  3d2f6b742e2085f0f2fd30d81f006d76
+
+    22140-0003-Data.txt                 584     121,027   155     2011-08-09  b0569a71c5cf7c06be53736ad183eb16
+
+    22140-0003-Setup.dct                -       -         -       2011-08-09  8f1a7529a9d91fc17c735d00b7f8e985
+
+    22140-0003-Setup.do                 -       -         -       2011-08-09  05af09a40719a5544abb7abc79b0a8d6
+
+    22140-0003-Setup.sas                -       -         -       2011-08-09  ae08d9ca286dbd0c2698ed56afc58872
+
+    22140-0003-Setup.sps                -       -         -       2011-08-09  db259db43cc8c9285fec04daa6035e75
+

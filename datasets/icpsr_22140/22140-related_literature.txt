@@ -1,0 +1,124 @@
+Bibliography
+HIV Transmission Network Metastudy Project: An Archive of Data From Eight
+Network Studies, 1988--2001
+
+This bibliography includes published and unpublished works that are related 
+to ICPSR study 22140. It includes works that are based on primary
+or secondary analysis of the data, or which describe or critique those
+data or the collection methodology. 
+
+If you publish a work or know of other works that are based on these data,
+please send the complete citation and name of the ICPSR study used to:
+icpsr-biblio-notify@umich.edu 
+
+
+1. Adams, Jimi; Moody, James, "To tell the truth: Measuring concordance in
+multiply reported network data." Social Networks. Jan 2007, 29, (1), 44 -
+58. DOI: 10.1016/j.socnet.2005.11.009
+
+2. Almquist, Zack W., "Large-scale spatial network models: An application
+to modeling information diffusion through the homeless population of San
+Francisco." Environment and Planning B: Urban Analytics and City Science.
+In press 2018,. DOI: 10.1177/2399808318785375
+
+3. Bell, D.C., "Evolution of parental caregiving." Personality and Social
+Psychology Review. 2001, 5, (3), 216 - 229. DOI:
+10.1207/S15327957PSPR0503_3
+
+4. Bell, D.C.; Richard, A.J., "Caregiving: The forgotten element in
+attachment." Psychological Inquiry. 11, (2), 69 - 83. DOI:
+10.1207/S15327965PLI1102_01
+
+5. Bell, David C.; Atkinson, John S.; Mosier, Victoria; Riley, Micah;
+Brown, Victoria L., "The HIV transmission gradient: Relationship patterns
+of protection." AIDS and Behavior. Nov 2007, 11, (6), 789 - 811. DOI:
+10.1007/s10461-006-9192-5
+
+6. Bell, David C.; Montoya, Isaac D.; Atkinson, John S., "Partner
+concordance in reports of joint risk behaviors." JAIDS: Journal of Acquired
+Immune Deficiency Syndromes. 2000, 25, 173 - 181. DOI: 10.1097/00042560-
+200010010-00012
+
+7. Bell, David C.; Yang, Su-Jau; Lee, Doohee; Heath, Victoria,
+"Relationships and diseases among drug users and nonusers." Journal of
+Urban Health. Jun 2001, 78, (2), 313 - 326.
+
+8. Curtis, R.; Friedman, S.R.; Neaigus, A.; Jose, B.; Goldstein, M.F.;
+Ildefonso, G., "Street-level drug markets: Network structure and HIV risk."
+Social Networks. Jul-Oct 1995, 17, (3-4), 229 - 249. DOI: 10.1016/0378-
+8733(95)00264-O
+
+9. Garcia, John A., "The race project: Researching race in the social
+sciences researchers, measures, and scope of studies." Journal of Race,
+Ethnicity, and Politics. Sep 2017, 2, (2), 300 - 346. DOI:
+10.1017/rep.2017.15
+
+10. Handcock, Mark S., "Stability and degeneracy of network models." In
+Weidman, Scott T., Proceedings of a Workshop on Statistics on Networks. 343
+- 374, Washington, DC: National Academies Press,2007.
+
+11. Klovdahl, A.S.; Potterat, J.; Woodhouse, D.; Muth, J.; Muth, S.;
+Darrow, W.W., "HIV infection in an urban social network: A progress
+report." BMS: Bulletin of Sociological Methodology. Sep 1992, (36), 24 -
+33.
+Full text: https://www.jstor.org/stable/24311213
+
+12. Latkin, C.A.; Curry, A., "Stressful neighborhoods and depression: A
+prospective study of the impact of neighborhood disorder." Journal of
+Health and Social Behavior. 2003, 44, (1), 34 - 44.
+Full text: https://www.jstor.org/stable/24311213
+
+13. Lee, Doohee; Bell, David C.; Hinojosa, Marilyn, "Drug use, travel, and
+HIV risk." AIDS Care. 2002, 14, 443 - 453.
+Full text: https://www.jstor.org/stable/24311213
+
+14. Morris, Martina, "Network dynamism: History and lessons of the Colorado
+Springs Study." In Potterat, J.J.; Woodhouse, D.E.; Muth, S.Q.; Rothenberg,
+R.B.; Darrow, W.W.; Klovdahl, A.S.; Muth, J.B., Network Epidemiology: A
+Handbook for Survey Design and Data Collection. 87 - 114, New York: Oxford
+University Press, Inc.,2004. DOI: 10.1093/0199269017.003.0006
+Full text: https://www.jstor.org/stable/24311213
+
+15. Neaigus, A.; Friedman, S.R.; Curtis, R.; Des Jarlais, D.C.; Furst,
+R.T.; Jose, B.; Mota, P.; Stepherson, B.; Sufian, M.; Ward, T.; Wright,
+J.W., "The relevance of drug injectors' social networks and risk networks
+for understanding and preventing HIV infection." Social Science and
+Medicine. Jan 1994, 38, (1), 67 - 78. DOI: 10.1016/0277-9536(94)90301-8
+Full text: https://www.jstor.org/stable/24311213
+
+16. Neaigus, A.; Friedman, S.R.; Goldstein, M.F.; Ildefonso, G.; Curtis,
+R.; Jose, B., "Using dyadic data for a network analysis of HIV infection
+and risk behaviors among injecting drug users." In Needle, Richard; Coyle,
+Susan L.; Genser, Sander G.; Trotter, Robert T., II, Social Networks, Drug
+Abuse, and HIV Transmission. NIDA Research Monograph Series 151. 20 - 37,
+Rockville, MD: United States Department of Health and Human Services,
+National Institute on Drug Abuse,1995.
+Full text: https://www.jstor.org/stable/24311213
+
+17. Neaigus, A.; Friedman, S.R.; Jose, B.; Goldstein, M.F.; Curtis, R.;
+Ildefonso, G.; Des Jarlais, D.C., "High-risk personal networks and syringe
+sharing as risk factors for HIV infection among new drug injectors."
+Journal of Acquired Immune Deficiency Syndromes and Human Retrovirology.
+Apr 15, 1996, 11, (5), 499 - 509. DOI: 10.1097/00042560-199604150-00011
+Full text: https://www.jstor.org/stable/24311213
+
+18. Rothenberg, Richard; Baldwin, Julie; Trotter, Robert; Muth, Stephan,
+"The risk environment for HIV transmission: Results from the Atlanta and
+Flagstaff Network Studies." Journal of Urban Health. Sep 2001, 78, (3),.
+DOI: 10.1093/jurban/78.3.419
+Full text: https://www.jstor.org/stable/24311213
+
+19. Smith, Jeffrey A.; Moody, James, "Structural effects of network
+sampling coverage I: Nodes missing at random." Social Networks. Oct 2013,
+35, (4), 652 - 668. DOI: 10.1016/j.socnet.2013.09.003
+Full text: https://www.jstor.org/stable/24311213
+
+20. Smith, Jeffrey A.; Moody, James; Morgan, Jonathan H., "Network sampling
+coverage II: The effect of non-random missing data on network measurement."
+Social Networks. Jan 2017, 48, 78 - 99. DOI: 10.1016/j.socnet.2016.04.005
+Full text: https://www.jstor.org/stable/24311213
+
+21. Wylie, J.L.; Cabral, T.; Jolly, A.M., "Identifying STI transmission
+networks: A molecular, geographic, and social network analysis." Journal of
+Infectious Diseases. 2004, 191, (6), 899 - 906.
+Full text: https://www.jstor.org/stable/24311213
