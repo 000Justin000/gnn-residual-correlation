@@ -1,52 +1,117 @@
 
 
 seed_val:    1
- 0.437,     0.334,    [     0.993],     1.695
- 0.582,     0.536,    [     0.999],     2.335
- 0.637,     0.610,    [     0.999],     2.750
- 0.663,     0.638,    [     1.000],     2.983
- 0.684,     0.660,    [     1.000],     2.983
- 0.703,     0.675,    [     1.000],     3.405
- 0.721,     0.688,    [     1.000],     3.623
- 0.731,     0.694,    [     0.999],     3.770
- 0.737,     0.698,    [     0.999],     3.770
- 0.739,     0.696,    [     0.999],     3.920
- 0.747,     0.700,    [     0.998],     3.909
- 0.750,     0.702,    [     0.998],     4.020
- 0.752,     0.703,    [     0.999],     4.287
- 0.758,     0.707,    [     0.999],     4.144
- 0.760,     0.709,    [     0.999],     4.216
+ 0.427,     0.325,    [     0.995],     1.630
+ 0.587,     0.549,    [     0.999],     2.357
+ 0.647,     0.627,    [     1.000],     2.812
 
- pctg,    rr,    α,    β
- 0.600,     0.757,    [     0.999],     4.216
-
-
-seed_val:    2
- 0.563,     0.488,    [     0.999],     2.280
- 0.701,     0.651,    [     0.999],     3.405
- 0.718,     0.672,    [     0.999],     3.631
- 0.731,     0.687,    [     0.999],     3.677
- 0.741,     0.699,    [     0.999],     3.883
- 0.749,     0.705,    [     0.999],     3.988
- 0.756,     0.710,    [     0.999],     3.988
- 0.762,     0.718,    [     0.998],     4.203
- 0.765,     0.721,    [     0.999],     4.289
- 0.771,     0.724,    [     0.999],     4.289
- 0.775,     0.726,    [     0.999],     4.468
- 0.778,     0.727,    [     0.999],     4.468
- 0.779,     0.729,    [     0.999],     4.468
- 0.782,     0.729,    [     0.999],     4.473
- 0.784,     0.731,    [     0.999],     4.596
-
- pctg,    rr,    α,    β
- 0.600,     0.761,    [     0.999],     4.596
-
-
-seed_val:    3
- 0.625,     0.608,    [     0.990],     2.877
- 0.665,     0.651,    [     0.991],     3.158
- 0.681,     0.665,    [     0.999],     3.316
- 0.707,     0.692,    [     0.999],     3.612
- 0.723,     0.705,    [     0.999],     3.848
- 0.732,     0.707,    [     0.998],     3.916
- 0.739,     0.714,    [     0.998],     4.070
+signal (15): Terminated
+in expression starting at /home/junteng/Projects/gnn-residual-correlation/run.jl:5
+* at ./float.jl:399 [inlined]
+mul! at /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.0/SparseArrays/src/linalg.jl:43
+#mBCG#51 at /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.0/SparseArrays/src/linalg.jl:54
+unknown function (ip: 0x7f25a099e24b)
+jl_invoke at /buildworker/worker/package_linux64/build/src/gf.c:2296
+#mBCG at ./none:0 [inlined]
+#_forward#72 at /home/junteng/Projects/gnn-residual-correlation/utils.jl:161
+unknown function (ip: 0x7f25a0993f86)
+jl_invoke at /buildworker/worker/package_linux64/build/src/gf.c:2296
+#_forward at ./none:0 [inlined]
+#track#1 at /home/junteng/.julia/packages/Tracker/cpxco/src/Tracker.jl:52 [inlined]
+#track at ./none:0 [inlined]
+#logdetΓ#71 at /home/junteng/Projects/gnn-residual-correlation/utils.jl:136 [inlined]
+#logdetΓ at ./none:0
+jl_apply_generic at /buildworker/worker/package_linux64/build/src/gf.c:2162
+getΩ at /home/junteng/Projects/gnn-residual-correlation/run_dataset.jl:85
+obj_func at /home/junteng/Projects/gnn-residual-correlation/utils.jl:393
+jl_apply_generic at /buildworker/worker/package_linux64/build/src/gf.c:2162
+jl_apply at /buildworker/worker/package_linux64/build/src/julia.h:1537 [inlined]
+jl_f__apply at /buildworker/worker/package_linux64/build/src/builtins.c:556
+jl_f__apply_latest at /buildworker/worker/package_linux64/build/src/builtins.c:594
+#invokelatest#1 at ./essentials.jl:697
+jl_apply_generic at /buildworker/worker/package_linux64/build/src/gf.c:2162
+jl_apply at /buildworker/worker/package_linux64/build/src/julia.h:1537 [inlined]
+jl_f__apply at /buildworker/worker/package_linux64/build/src/builtins.c:556
+invokelatest at ./essentials.jl:696
+jl_apply_generic at /buildworker/worker/package_linux64/build/src/gf.c:2162
+jl_apply at /buildworker/worker/package_linux64/build/src/julia.h:1537 [inlined]
+jl_f__apply at /buildworker/worker/package_linux64/build/src/builtins.c:556
+_pyjlwrap_call at /home/junteng/.julia/packages/PyCall/kAhnQ/src/callback.jl:28
+unknown function (ip: 0x7f25a09a9994)
+jl_apply_generic at /buildworker/worker/package_linux64/build/src/gf.c:2162
+pyjlwrap_call at /home/junteng/.julia/packages/PyCall/kAhnQ/src/callback.jl:49
+unknown function (ip: 0x7f25a09a92b7)
+jl_apply_generic at /buildworker/worker/package_linux64/build/src/gf.c:2162
+unknown function (ip: 0x7f25d9da5843)
+unknown function (ip: 0x7f25d9da5714)
+PyObject_Call at /home/junteng/Softwares/anaconda3/lib/libpython3.7m.so.1.0 (unknown line)
+_PyEval_EvalFrameDefault at /home/junteng/Softwares/anaconda3/lib/libpython3.7m.so.1.0 (unknown line)
+_PyEval_EvalCodeWithName at /home/junteng/Softwares/anaconda3/lib/libpython3.7m.so.1.0 (unknown line)
+_PyFunction_FastCallDict at /home/junteng/Softwares/anaconda3/lib/libpython3.7m.so.1.0 (unknown line)
+_PyObject_Call_Prepend at /home/junteng/Softwares/anaconda3/lib/libpython3.7m.so.1.0 (unknown line)
+slot_tp_call at /home/junteng/Softwares/anaconda3/lib/libpython3.7m.so.1.0 (unknown line)
+PyObject_Call at /home/junteng/Softwares/anaconda3/lib/libpython3.7m.so.1.0 (unknown line)
+_PyEval_EvalFrameDefault at /home/junteng/Softwares/anaconda3/lib/libpython3.7m.so.1.0 (unknown line)
+_PyEval_EvalCodeWithName at /home/junteng/Softwares/anaconda3/lib/libpython3.7m.so.1.0 (unknown line)
+_PyFunction_FastCallDict at /home/junteng/Softwares/anaconda3/lib/libpython3.7m.so.1.0 (unknown line)
+_PyEval_EvalFrameDefault at /home/junteng/Softwares/anaconda3/lib/libpython3.7m.so.1.0 (unknown line)
+_PyEval_EvalCodeWithName at /home/junteng/Softwares/anaconda3/lib/libpython3.7m.so.1.0 (unknown line)
+_PyFunction_FastCallKeywords at /home/junteng/Softwares/anaconda3/lib/libpython3.7m.so.1.0 (unknown line)
+call_function.lto_priv.1541 at /home/junteng/Softwares/anaconda3/lib/libpython3.7m.so.1.0 (unknown line)
+_PyEval_EvalFrameDefault at /home/junteng/Softwares/anaconda3/lib/libpython3.7m.so.1.0 (unknown line)
+_PyEval_EvalCodeWithName at /home/junteng/Softwares/anaconda3/lib/libpython3.7m.so.1.0 (unknown line)
+_PyFunction_FastCallDict at /home/junteng/Softwares/anaconda3/lib/libpython3.7m.so.1.0 (unknown line)
+_PyEval_EvalFrameDefault at /home/junteng/Softwares/anaconda3/lib/libpython3.7m.so.1.0 (unknown line)
+_PyEval_EvalCodeWithName at /home/junteng/Softwares/anaconda3/lib/libpython3.7m.so.1.0 (unknown line)
+_PyFunction_FastCallDict at /home/junteng/Softwares/anaconda3/lib/libpython3.7m.so.1.0 (unknown line)
+macro expansion at /home/junteng/.julia/packages/PyCall/kAhnQ/src/exception.jl:93 [inlined]
+#110 at /home/junteng/.julia/packages/PyCall/kAhnQ/src/pyfncall.jl:43 [inlined]
+disable_sigint at ./c.jl:446 [inlined]
+__pycall! at /home/junteng/.julia/packages/PyCall/kAhnQ/src/pyfncall.jl:42 [inlined]
+_pycall! at /home/junteng/.julia/packages/PyCall/kAhnQ/src/pyfncall.jl:29
+_pycall! at /home/junteng/.julia/packages/PyCall/kAhnQ/src/pyfncall.jl:11
+jl_apply_generic at /buildworker/worker/package_linux64/build/src/gf.c:2162
+#call#117 at /home/junteng/.julia/packages/PyCall/kAhnQ/src/pyfncall.jl:86
+jl_apply_generic at /buildworker/worker/package_linux64/build/src/gf.c:2162
+jl_apply at /buildworker/worker/package_linux64/build/src/julia.h:1537 [inlined]
+jl_f__apply at /buildworker/worker/package_linux64/build/src/builtins.c:556
+PyObject at ./none:0
+jl_apply_generic at /buildworker/worker/package_linux64/build/src/gf.c:2162
+#train!#85 at /home/junteng/Projects/gnn-residual-correlation/utils.jl:413
+unknown function (ip: 0x7f25a0e5a331)
+jl_fptr_trampoline at /buildworker/worker/package_linux64/build/src/gf.c:1809
+jl_apply_generic at /buildworker/worker/package_linux64/build/src/gf.c:2162
+#train! at ./none:0
+unknown function (ip: 0x7f25a0e58cb4)
+jl_fptr_trampoline at /buildworker/worker/package_linux64/build/src/gf.c:1809
+jl_apply_generic at /buildworker/worker/package_linux64/build/src/gf.c:2162
+run_once at /home/junteng/Projects/gnn-residual-correlation/run_dataset.jl:106
+run_dataset at /home/junteng/Projects/gnn-residual-correlation/run_dataset.jl:167
+unknown function (ip: 0x7f25a0da23f8)
+jl_fptr_trampoline at /buildworker/worker/package_linux64/build/src/gf.c:1809
+jl_apply_generic at /buildworker/worker/package_linux64/build/src/gf.c:2162
+do_call at /buildworker/worker/package_linux64/build/src/interpreter.c:324
+eval_value at /buildworker/worker/package_linux64/build/src/interpreter.c:430
+eval_stmt_value at /buildworker/worker/package_linux64/build/src/interpreter.c:363 [inlined]
+eval_body at /buildworker/worker/package_linux64/build/src/interpreter.c:682
+jl_interpret_toplevel_thunk_callback at /buildworker/worker/package_linux64/build/src/interpreter.c:806
+unknown function (ip: 0xfffffffffffffffe)
+unknown function (ip: 0x7f2588f66adf)
+unknown function (ip: 0xe)
+jl_interpret_toplevel_thunk at /buildworker/worker/package_linux64/build/src/interpreter.c:815
+jl_toplevel_eval_flex at /buildworker/worker/package_linux64/build/src/toplevel.c:805
+jl_parse_eval_all at /buildworker/worker/package_linux64/build/src/ast.c:838
+jl_load at /buildworker/worker/package_linux64/build/src/toplevel.c:839
+include at ./boot.jl:317 [inlined]
+include_relative at ./loading.jl:1044
+include at ./sysimg.jl:29
+jl_apply_generic at /buildworker/worker/package_linux64/build/src/gf.c:2162
+exec_options at ./client.jl:266
+_start at ./client.jl:425
+jl_apply_generic at /buildworker/worker/package_linux64/build/src/gf.c:2162
+unknown function (ip: 0x401b08)
+unknown function (ip: 0x401533)
+__libc_start_main at /build/glibc-OTsEL5/glibc-2.27/csu/../csu/libc-start.c:310
+unknown function (ip: 0x4015d4)
+unknown function (ip: 0xffffffffffffffff)
+Allocations: 854186364 (Pool: 853309155; Big: 877209); GC: 14246

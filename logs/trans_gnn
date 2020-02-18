@@ -1,213 +1,147 @@
 
 
 seed_val:    1
- 0.302,     0.286,    [     0.000],    20.086
- 0.563,     0.556,    [     0.000],    20.086
- 0.684,     0.663,    [     0.000],    20.086
- 0.706,     0.671,    [     0.000],    20.086
- 0.717,     0.672,    [     0.000],    20.086
- 0.726,     0.680,    [     0.000],    20.086
- 0.733,     0.683,    [     0.000],    20.086
- 0.739,     0.686,    [     0.000],    20.086
- 0.743,     0.691,    [     0.000],    20.086
- 0.744,     0.693,    [     0.000],    20.086
- 0.752,     0.696,    [     0.000],    20.086
- 0.754,     0.691,    [     0.000],    20.086
- 0.757,     0.696,    [     0.000],    20.086
- 0.762,     0.696,    [     0.000],    20.086
- 0.765,     0.699,    [     0.000],    20.086
+ 0.301,     0.291,    [     0.000],    20.086
+ 0.603,     0.578,    [     0.000],    20.086
+ 0.678,     0.643,    [     0.000],    20.086
+ 0.693,     0.647,    [     0.000],    20.086
+ 0.707,     0.658,    [     0.000],    20.086
+ 0.716,     0.661,    [     0.000],    20.086
+ 0.720,     0.663,    [     0.000],    20.086
+ 0.728,     0.663,    [     0.000],    20.086
+ 0.732,     0.664,    [     0.000],    20.086
+ 0.730,     0.660,    [     0.000],    20.086
+ 0.735,     0.656,    [     0.000],    20.086
+ 0.740,     0.658,    [     0.000],    20.086
+ 0.740,     0.657,    [     0.000],    20.086
+ 0.746,     0.661,    [     0.000],    20.086
+ 0.748,     0.657,    [     0.000],    20.086
 
  pctg,    rr,    α,    β
- 0.600,     0.723,    [     0.000],    20.086
+ 0.600,     0.686,    [     0.000],    20.086
 
 
 seed_val:    2
- 0.507,     0.453,    [     0.000],    20.086
- 0.689,     0.648,    [     0.000],    20.086
- 0.716,     0.672,    [     0.000],    20.086
- 0.731,     0.690,    [     0.000],    20.086
- 0.739,     0.695,    [     0.000],    20.086
- 0.743,     0.693,    [     0.000],    20.086
- 0.742,     0.695,    [     0.000],    20.086
- 0.747,     0.694,    [     0.000],    20.086
- 0.750,     0.697,    [     0.000],    20.086
- 0.755,     0.699,    [     0.000],    20.086
- 0.757,     0.697,    [     0.000],    20.086
- 0.760,     0.696,    [     0.000],    20.086
- 0.758,     0.697,    [     0.000],    20.086
- 0.762,     0.693,    [     0.000],    20.086
- 0.759,     0.692,    [     0.000],    20.086
+ 0.300,     0.264,    [     0.000],    20.086
+ 0.644,     0.590,    [     0.000],    20.086
+ 0.680,     0.638,    [     0.000],    20.086
+ 0.696,     0.644,    [     0.000],    20.086
+ 0.705,     0.652,    [     0.000],    20.086
+ 0.709,     0.647,    [     0.000],    20.086
+ 0.716,     0.651,    [     0.000],    20.086
+ 0.720,     0.653,    [     0.000],    20.086
+ 0.724,     0.654,    [     0.000],    20.086
+ 0.727,     0.654,    [     0.000],    20.086
+ 0.731,     0.649,    [     0.000],    20.086
+ 0.734,     0.649,    [     0.000],    20.086
+ 0.735,     0.657,    [     0.000],    20.086
+ 0.740,     0.649,    [     0.000],    20.086
+ 0.741,     0.652,    [     0.000],    20.086
 
  pctg,    rr,    α,    β
- 0.600,     0.740,    [     0.000],    20.086
+ 0.600,     0.733,    [     0.000],    20.086
 
 
 seed_val:    3
- 0.602,     0.599,    [     0.000],    20.086
- 0.684,     0.667,    [     0.000],    20.086
- 0.709,     0.691,    [     0.000],    20.086
- 0.722,     0.699,    [     0.000],    20.086
- 0.732,     0.707,    [     0.000],    20.086
- 0.739,     0.707,    [     0.000],    20.086
- 0.744,     0.707,    [     0.000],    20.086
- 0.750,     0.710,    [     0.000],    20.086
- 0.754,     0.710,    [     0.000],    20.086
- 0.754,     0.705,    [     0.000],    20.086
- 0.756,     0.710,    [     0.000],    20.086
- 0.762,     0.709,    [     0.000],    20.086
- 0.762,     0.701,    [     0.000],    20.086
- 0.767,     0.712,    [     0.000],    20.086
- 0.772,     0.714,    [     0.000],    20.086
+ 0.579,     0.540,    [     0.000],    20.086
+ 0.666,     0.645,    [     0.000],    20.086
+ 0.696,     0.681,    [     0.000],    20.086
+ 0.709,     0.688,    [     0.000],    20.086
+ 0.717,     0.692,    [     0.000],    20.086
+ 0.720,     0.689,    [     0.000],    20.086
+ 0.725,     0.688,    [     0.000],    20.086
+ 0.730,     0.691,    [     0.000],    20.086
+ 0.729,     0.685,    [     0.000],    20.086
+ 0.729,     0.683,    [     0.000],    20.086
+ 0.731,     0.688,    [     0.000],    20.086
+ 0.739,     0.685,    [     0.000],    20.086
+ 0.744,     0.688,    [     0.000],    20.086
+ 0.747,     0.686,    [     0.000],    20.086
+ 0.749,     0.690,    [     0.000],    20.086
 
  pctg,    rr,    α,    β
- 0.600,     0.733,    [     0.000],    20.086
+ 0.600,     0.704,    [     0.000],    20.086
 
 
 seed_val:    4
- 0.625,     0.618,    [     0.000],    20.086
- 0.697,     0.695,    [     0.000],    20.086
- 0.711,     0.711,    [     0.000],    20.086
- 0.719,     0.723,    [     0.000],    20.086
- 0.726,     0.727,    [     0.000],    20.086
- 0.731,     0.729,    [     0.000],    20.086
- 0.736,     0.736,    [     0.000],    20.086
- 0.738,     0.732,    [     0.000],    20.086
- 0.742,     0.736,    [     0.000],    20.086
- 0.744,     0.735,    [     0.000],    20.086
- 0.747,     0.734,    [     0.000],    20.086
- 0.750,     0.733,    [     0.000],    20.086
- 0.752,     0.734,    [     0.000],    20.086
- 0.753,     0.732,    [     0.000],    20.086
- 0.753,     0.731,    [     0.000],    20.086
+ 0.297,     0.264,    [     0.000],    20.086
+ 0.648,     0.619,    [     0.000],    20.086
+ 0.688,     0.667,    [     0.000],    20.086
+ 0.700,     0.681,    [     0.000],    20.086
+ 0.707,     0.688,    [     0.000],    20.086
 
- pctg,    rr,    α,    β
- 0.600,     0.670,    [     0.000],    20.086
-
-
-seed_val:    5
- 0.391,     0.302,    [     0.000],    20.086
- 0.651,     0.526,    [     0.000],    20.086
- 0.706,     0.592,    [     0.000],    20.086
- 0.726,     0.614,    [     0.000],    20.086
- 0.739,     0.626,    [     0.000],    20.086
- 0.748,     0.644,    [     0.000],    20.086
- 0.759,     0.656,    [     0.000],    20.086
- 0.764,     0.659,    [     0.000],    20.086
- 0.768,     0.665,    [     0.000],    20.086
- 0.772,     0.666,    [     0.000],    20.086
- 0.775,     0.670,    [     0.000],    20.086
- 0.780,     0.672,    [     0.000],    20.086
- 0.782,     0.674,    [     0.000],    20.086
- 0.785,     0.672,    [     0.000],    20.086
- 0.787,     0.676,    [     0.000],    20.086
-
- pctg,    rr,    α,    β
- 0.600,     0.677,    [     0.000],    20.086
-
-
-seed_val:    6
- 0.472,     0.467,    [     0.000],    20.086
- 0.647,     0.630,    [     0.000],    20.086
- 0.689,     0.673,    [     0.000],    20.086
- 0.705,     0.684,    [     0.000],    20.086
- 0.715,     0.689,    [     0.000],    20.086
- 0.720,     0.690,    [     0.000],    20.086
- 0.729,     0.694,    [     0.000],    20.086
- 0.733,     0.691,    [     0.000],    20.086
- 0.740,     0.698,    [     0.000],    20.086
- 0.744,     0.692,    [     0.000],    20.086
- 0.750,     0.703,    [     0.000],    20.086
- 0.751,     0.693,    [     0.000],    20.086
- 0.758,     0.699,    [     0.000],    20.086
- 0.762,     0.703,    [     0.000],    20.086
- 0.765,     0.703,    [     0.000],    20.086
-
- pctg,    rr,    α,    β
- 0.600,     0.737,    [     0.000],    20.086
-
-
-seed_val:    7
- 0.485,     0.457,    [     0.000],    20.086
- 0.661,     0.646,    [     0.000],    20.086
- 0.693,     0.679,    [     0.000],    20.086
- 0.704,     0.684,    [     0.000],    20.086
- 0.708,     0.679,    [     0.000],    20.086
- 0.717,     0.691,    [     0.000],    20.086
- 0.721,     0.696,    [     0.000],    20.086
- 0.724,     0.698,    [     0.000],    20.086
- 0.726,     0.705,    [     0.000],    20.086
- 0.731,     0.699,    [     0.000],    20.086
- 0.733,     0.700,    [     0.000],    20.086
- 0.736,     0.699,    [     0.000],    20.086
- 0.737,     0.704,    [     0.000],    20.086
- 0.739,     0.701,    [     0.000],    20.086
- 0.742,     0.699,    [     0.000],    20.086
-
- pctg,    rr,    α,    β
- 0.600,     0.733,    [     0.000],    20.086
-
-
-seed_val:    8
- 0.530,     0.435,    [     0.000],    20.086
- 0.670,     0.588,    [     0.000],    20.086
- 0.696,     0.622,    [     0.000],    20.086
- 0.712,     0.643,    [     0.000],    20.086
- 0.726,     0.654,    [     0.000],    20.086
- 0.735,     0.659,    [     0.000],    20.086
- 0.738,     0.657,    [     0.000],    20.086
- 0.747,     0.669,    [     0.000],    20.086
- 0.755,     0.670,    [     0.000],    20.086
- 0.759,     0.672,    [     0.000],    20.086
- 0.761,     0.671,    [     0.000],    20.086
- 0.766,     0.672,    [     0.000],    20.086
- 0.769,     0.671,    [     0.000],    20.086
- 0.769,     0.667,    [     0.000],    20.086
- 0.772,     0.669,    [     0.000],    20.086
-
- pctg,    rr,    α,    β
- 0.600,     0.693,    [     0.000],    20.086
-
-
-seed_val:    9
- 0.578,     0.528,    [     0.000],    20.086
- 0.681,     0.640,    [     0.000],    20.086
- 0.711,     0.672,    [     0.000],    20.086
- 0.734,     0.676,    [     0.000],    20.086
- 0.742,     0.686,    [     0.000],    20.086
- 0.747,     0.680,    [     0.000],    20.086
- 0.749,     0.680,    [     0.000],    20.086
- 0.754,     0.686,    [     0.000],    20.086
- 0.751,     0.685,    [     0.000],    20.086
- 0.753,     0.675,    [     0.000],    20.086
- 0.760,     0.686,    [     0.000],    20.086
- 0.756,     0.674,    [     0.000],    20.086
- 0.762,     0.685,    [     0.000],    20.086
- 0.763,     0.685,    [     0.000],    20.086
- 0.765,     0.688,    [     0.000],    20.086
-
- pctg,    rr,    α,    β
- 0.600,     0.707,    [     0.000],    20.086
-
-
-seed_val:    10
- 0.401,     0.366,    [     0.000],    20.086
- 0.651,     0.638,    [     0.000],    20.086
- 0.677,     0.667,    [     0.000],    20.086
- 0.694,     0.688,    [     0.000],    20.086
- 0.708,     0.702,    [     0.000],    20.086
- 0.713,     0.708,    [     0.000],    20.086
- 0.727,     0.710,    [     0.000],    20.086
- 0.738,     0.722,    [     0.000],    20.086
- 0.745,     0.729,    [     0.000],    20.086
- 0.751,     0.732,    [     0.000],    20.086
- 0.754,     0.726,    [     0.000],    20.086
- 0.750,     0.731,    [     0.000],    20.086
- 0.761,     0.734,    [     0.000],    20.086
- 0.765,     0.733,    [     0.000],    20.086
- 0.767,     0.730,    [     0.000],    20.086
-
- pctg,    rr,    α,    β
- 0.600,     0.682,    [     0.000],    20.086
-
- trans: twitch_PTBR_true_8,     0.709 ±  0.027
- α, β: [     0.000] ± [     0.000], 20.086 ±  0.000
+signal (15): Terminated
+in expression starting at /home/junteng/Projects/gnn-residual-correlation/run.jl:5
+jl_typemap_entry_assoc_exact at /buildworker/worker/package_linux64/build/src/typemap.c:774
+jl_typemap_level_assoc_exact at /buildworker/worker/package_linux64/build/src/typemap.c:838
+jl_typemap_assoc_exact at /buildworker/worker/package_linux64/build/src/julia_internal.h:886 [inlined]
+jl_typemap_level_assoc_exact at /buildworker/worker/package_linux64/build/src/typemap.c:833
+jl_typemap_assoc_exact at /buildworker/worker/package_linux64/build/src/julia_internal.h:886 [inlined]
+jl_lookup_generic_ at /buildworker/worker/package_linux64/build/src/gf.c:2113 [inlined]
+jl_apply_generic at /buildworker/worker/package_linux64/build/src/gf.c:2159
+broadcasted at ./broadcast.jl:1168 [inlined]
+_forward at /home/junteng/.julia/packages/Tracker/cpxco/src/lib/array.jl:205
+jl_apply_generic at /buildworker/worker/package_linux64/build/src/gf.c:2162
+jl_apply at /buildworker/worker/package_linux64/build/src/julia.h:1537 [inlined]
+jl_f__apply at /buildworker/worker/package_linux64/build/src/builtins.c:556
+#track#1 at /home/junteng/.julia/packages/Tracker/cpxco/src/Tracker.jl:52
+jl_apply_generic at /buildworker/worker/package_linux64/build/src/gf.c:2162
+jl_apply at /buildworker/worker/package_linux64/build/src/julia.h:1537 [inlined]
+jl_f__apply at /buildworker/worker/package_linux64/build/src/builtins.c:556
+track at /home/junteng/.julia/packages/Tracker/cpxco/src/Tracker.jl:52
+jl_apply_generic at /buildworker/worker/package_linux64/build/src/gf.c:2162
+jl_apply at /buildworker/worker/package_linux64/build/src/julia.h:1537 [inlined]
+jl_f__apply at /buildworker/worker/package_linux64/build/src/builtins.c:556
+hcat at /home/junteng/.julia/packages/Tracker/cpxco/src/lib/array.jl:186
+jl_apply_generic at /buildworker/worker/package_linux64/build/src/gf.c:2162
+jl_apply at /buildworker/worker/package_linux64/build/src/julia.h:1537 [inlined]
+jl_f__apply at /buildworker/worker/package_linux64/build/src/builtins.c:556
+AGG at /home/junteng/.julia/packages/GraphSAGE/DKyMb/src/GraphSAGE.jl:31
+jl_apply_generic at /buildworker/worker/package_linux64/build/src/gf.c:2162
+SAGE at /home/junteng/.julia/packages/GraphSAGE/DKyMb/src/GraphSAGE.jl:87
+jl_apply_generic at /buildworker/worker/package_linux64/build/src/gf.c:2162
+Transformer at /home/junteng/.julia/packages/GraphSAGE/DKyMb/src/GraphSAGE.jl:119
+jl_apply_generic at /buildworker/worker/package_linux64/build/src/gf.c:2162
+#103 at /home/junteng/Projects/gnn-residual-correlation/run_dataset.jl:67
+#pred#84 at /home/junteng/Projects/gnn-residual-correlation/utils.jl:363
+jl_invoke at /buildworker/worker/package_linux64/build/src/gf.c:2296
+#pred at ./none:0
+jl_apply_generic at /buildworker/worker/package_linux64/build/src/gf.c:2162
+call_back at /home/junteng/Projects/gnn-residual-correlation/run_dataset.jl:97
+#train!#85 at /home/junteng/Projects/gnn-residual-correlation/utils.jl:429
+unknown function (ip: 0x7fc4953472a1)
+jl_apply_generic at /buildworker/worker/package_linux64/build/src/gf.c:2162
+#train! at ./none:0
+unknown function (ip: 0x7fc495345c24)
+jl_apply_generic at /buildworker/worker/package_linux64/build/src/gf.c:2162
+run_once at /home/junteng/Projects/gnn-residual-correlation/run_dataset.jl:106
+run_dataset at /home/junteng/Projects/gnn-residual-correlation/run_dataset.jl:167
+unknown function (ip: 0x7fc49528f3f8)
+jl_fptr_trampoline at /buildworker/worker/package_linux64/build/src/gf.c:1809
+jl_apply_generic at /buildworker/worker/package_linux64/build/src/gf.c:2162
+do_call at /buildworker/worker/package_linux64/build/src/interpreter.c:324
+eval_value at /buildworker/worker/package_linux64/build/src/interpreter.c:430
+eval_stmt_value at /buildworker/worker/package_linux64/build/src/interpreter.c:363 [inlined]
+eval_body at /buildworker/worker/package_linux64/build/src/interpreter.c:682
+jl_interpret_toplevel_thunk_callback at /buildworker/worker/package_linux64/build/src/interpreter.c:806
+unknown function (ip: 0xfffffffffffffffe)
+unknown function (ip: 0x7fc47cf157cf)
+unknown function (ip: 0xe)
+jl_interpret_toplevel_thunk at /buildworker/worker/package_linux64/build/src/interpreter.c:815
+jl_toplevel_eval_flex at /buildworker/worker/package_linux64/build/src/toplevel.c:805
+jl_parse_eval_all at /buildworker/worker/package_linux64/build/src/ast.c:838
+jl_load at /buildworker/worker/package_linux64/build/src/toplevel.c:839
+include at ./boot.jl:317 [inlined]
+include_relative at ./loading.jl:1044
+include at ./sysimg.jl:29
+jl_apply_generic at /buildworker/worker/package_linux64/build/src/gf.c:2162
+exec_options at ./client.jl:266
+_start at ./client.jl:425
+jl_apply_generic at /buildworker/worker/package_linux64/build/src/gf.c:2162
+unknown function (ip: 0x401b08)
+ 0.711,     0.690,    [     0.000],    20.086
+unknown function (ip: 0x401533)
+__libc_start_main at /build/glibc-OTsEL5/glibc-2.27/csu/../csu/libc-start.c:310
+unknown function (ip: 0x4015d4)
+unknown function (ip: 0xffffffffffffffff)
+Allocations: 1645433803 (Pool: 1639682385; Big: 5751418); GC: 6490
