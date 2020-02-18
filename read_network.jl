@@ -110,7 +110,7 @@ end
 function read_twitch(cnm, dim_reduction=false, dim_embed=8)
     #----------------------------------------------------------------------------
     feats_all = [];
-    for cn in ["PTBR"]
+    for cn in ["DE", "ENGB", "ES", "FR", "PTBR", "RU"]
         feats = JSON.parsefile("datasets/twitch/" * cn * "/musae_" * cn * "_features.json");
         append!(feats_all, values(feats));
     end
