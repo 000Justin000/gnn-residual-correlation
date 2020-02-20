@@ -65,7 +65,7 @@ function read_county(prediction, year)
     pop = DataFrames.DataFrame((:FIPS=>POP[:,:FIPS], :MigraRate=>POP[:,Symbol("R_NET_MIG_", min(max(2011,year), 2018))],
                                                      :BirthRate=>POP[:,Symbol("R_birth_", min(max(2011,year), 2018))],
                                                      :DeathRate=>POP[:,Symbol("R_death_", min(max(2011,year), 2018))]));
-    edu = DataFrames.DataFrame((:FIPS=>EDU[:,Symbol("FIPS Code")], :BachelorRate=>EDU[:,Symbol("Percent of adults with a bachelor's degree or higher, 2013-17")]));
+    edu = DataFrames.DataFrame((:FIPS=>EDU[:,Symbol("FIPS")], :BachelorRate=>EDU[:,Symbol("BachelorRate", year)]));
     uep = DataFrames.DataFrame((:FIPS=>UEP[:,:FIPS], :UnemploymentRate=>UEP[:,Symbol("Unemployment_rate_", min(max(2007,year), 2018))]));
 
     jfl(df1, df2) = join(df1, df2, on=:FIPS, kind=:left);
