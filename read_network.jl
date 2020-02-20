@@ -30,6 +30,12 @@ end
 function read_county(prediction, year)
     # construct graph
     adj = CSV.read("datasets/election/adjacency.txt", header=0);
+    fips2cty = Dict();
+    for i in 1:size(adj,1)
+        if !ismissing(adj[i,2])
+            fips2cty[adj[i,2]] = adj[i,1];
+        end
+    end
 
     hh = adj[:,2];
     tt = adj[:,4];
@@ -48,14 +54,14 @@ function read_county(prediction, year)
     end
 
     VOT = CSV.read("datasets/election/election.csv");
-    POV = CSV.read("datasets/election/poverty.csv");
+    ICM = CSV.read("datasets/election/income.csv");
     POP = CSV.read("datasets/election/population.csv");
     EDU = CSV.read("datasets/election/education.csv");
     UEP = CSV.read("datasets/election/unemployment.csv");
 
-    cty = DataFrames.DataFrame((:FIPS=>fips, :NUM=>collect(1:length(fips))));
+    cty = DataFrames.DataFrame((:FIPS=>fips, :County=>[fips2cty[fips_] for fips_ in fips]));
     vot = DataFrames.DataFrame((:FIPS=>VOT[:,:fips_code], :DEM=>VOT[:,Symbol("dem_", year)], :GOP=>VOT[:,Symbol("gop_", year)]));
-    pov = DataFrames.DataFrame((:FIPS=>POV[:,:FIPStxt], :MedianIncome=>POV[:,:MEDHHINC_2017]));
+    icm = DataFrames.DataFrame((:FIPS=>ICM[:,:FIPS], :MedianIncome=>ICM[:,Symbol("MedianIncome", min(max(2011,year), 2018))]));
     pop = DataFrames.DataFrame((:FIPS=>POP[:,:FIPS], :MigraRate=>POP[:,Symbol("R_NET_MIG_", min(max(2011,year), 2018))],
                                                      :BirthRate=>POP[:,Symbol("R_birth_", min(max(2011,year), 2018))],
                                                      :DeathRate=>POP[:,Symbol("R_death_", min(max(2011,year), 2018))]));
@@ -63,7 +69,7 @@ function read_county(prediction, year)
     uep = DataFrames.DataFrame((:FIPS=>UEP[:,:FIPS], :UnemploymentRate=>UEP[:,Symbol("Unemployment_rate_", min(max(2007,year), 2018))]));
 
     jfl(df1, df2) = join(df1, df2, on=:FIPS, kind=:left);
-    dat = jfl(jfl(jfl(jfl(jfl(cty, vot), pov), pop), edu), uep);
+    dat = jfl(jfl(jfl(jfl(jfl(cty, vot), icm), pop), edu), uep);
 
     function parse_mean_fill(vr, normalize=false)
         vb = mean(map(x->(typeof(x)<:Union{Float64,Int} ? x : parse(Float64, replace(x, ","=>""))), filter(!ismissing, vr)));
