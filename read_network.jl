@@ -15,7 +15,7 @@ max_normalize(x) = maximum(abs.(x)) == 0 ? x : x/maximum(abs.(x));
 std_normalize(x) = std(x) == 0 ? zeros(length(x)) : (x.-mean(x))./std(x);
 int_normalize(x) = std(x) == 0 ? zeros(length(x)) : (x.-minimum(x))/(maximum(x).-minimum(x))*2 .- 1;
 
-function read_ising(n, h0, J)
+function simulate_ising(n, h0, J)
     g = LightGraphs.grid([n,n]);
 
     l = range(-1.0, 1.0, length=n);
@@ -50,7 +50,7 @@ function read_county(prediction, year)
     id2num = Dict(id=>num for (num,id) in enumerate(fips));
     g = Graph(length(id2num));
     for (h,t) in zip(hh,tt)
-        add_edge!(g, id2num[h], id2num[t]);
+        (h != t) && add_edge!(g, id2num[h], id2num[t]);
     end
 
     VOT = CSV.read("datasets/election/election.csv");
@@ -291,7 +291,7 @@ function read_sexual(studynum)
 end
 
 function read_network(network_name)
-    (p = match(r"ising_([0-9]+)_([0-9\.\-]+)_([0-9\.\-]+)$", network_name)) != nothing && return read_ising(parse(Int, p[1]), parse(Float64, p[2]), parse(Float64, p[3]));
+    (p = match(r"ising_([0-9]+)_([0-9\.\-]+)_([0-9\.\-]+)$", network_name)) != nothing && return simulate_ising(parse(Int, p[1]), parse(Float64, p[2]), parse(Float64, p[3]));
     (p = match(r"county_([a-z]+)_([0-9]+)$", network_name)) != nothing && return read_county(p[1], parse(Int, p[2]));
     (p = match(r"twitch_([0-9a-zA-Z]+)_([a-z]+)_([0-9]+)$", network_name)) != nothing && return read_twitch(p[1], parse(Bool, p[2]), parse(Int, p[3]));
     (p = match(r"sexual_([0-9]+)$", network_name)) != nothing && return read_sexual(parse(Int, p[1]));
