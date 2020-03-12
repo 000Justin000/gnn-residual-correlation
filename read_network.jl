@@ -50,7 +50,7 @@ function read_county(prediction, year)
     id2num = Dict(id=>num for (num,id) in enumerate(fips));
     g = Graph(length(id2num));
     for (h,t) in zip(hh,tt)
-        (h != t) && add_edge!(g, id2num[h], id2num[t]);
+        add_edge!(g, id2num[h], id2num[t]);
     end
 
     VOT = CSV.read("datasets/election/election.csv");
