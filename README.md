@@ -3,7 +3,9 @@
 ### This repository hosts the code and some example data for the following paper:  
 [Outcome Correlation in Graph Neural Network Regression](https://arxiv.org/abs/2002.08274)  
 [Junteng Jia](https://000justin000.github.io/), and [Austin R. Benson](https://www.cs.cornell.edu/~arb/)  
-arXiv:2002.08274, 2020.
+KDD, 2020.
+
+There is a also a (G)pytorch [implementation](https://github.com/JunwenBai/correlation-gnn) from Junwen Bai and Yucheng Lu.
 
 Our paper identifies the fact that GNN regression residuals are oftentimes correlated among neighboring vertices, and we propose simple and efficient algorithms to explore the correlation structure:
 - C-GNN models the correlation as a multivariate Gaussian and learns the correlation structure in O(m) per optimization step, where m is the number of edges.
