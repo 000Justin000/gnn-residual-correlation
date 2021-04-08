@@ -68,7 +68,7 @@ function read_county(prediction, year)
     edu = DataFrames.DataFrame((:FIPS=>EDU[:,Symbol("FIPS")], :BachelorRate=>EDU[:,Symbol("BachelorRate", year)]));
     uep = DataFrames.DataFrame((:FIPS=>UEP[:,:FIPS], :UnemploymentRate=>UEP[:,Symbol("Unemployment_rate_", min(max(2007,year), 2018))]));
 
-    jfl(df1, df2) = join(df1, df2, on=:FIPS, kind=:left);
+    jfl(df1, df2) = leftjoin(df1, df2, on=:FIPS);
     dat = jfl(jfl(jfl(jfl(jfl(cty, vot), icm), pop), edu), uep);
 
     function parse_mean_fill(vr, normalize=false)
@@ -281,8 +281,19 @@ function read_sexual(studynum)
     end
 
     features = [];
+    push!(features, filter_mean_fill(V[!,:OCCPRES], x->x>=0, true));
     push!(features, hcat(map(x -> Flux.onehot(x, collect(1:5)), V[!,:RACE])...)');
-    push!(features, filter_mean_fill(V[!,:BEHAV], x -> x>=0, true));
+    push!(features, hcat(map(x -> Flux.onehot(x, [0,2]), V[!,:BEHAV])...)');
+    push!(features, hcat(map(x -> Flux.onehot(x, [-9,0,1]), V[!,:UNEMP])...)');
+    push!(features, hcat(map(x -> Flux.onehot(x, [-9,0,1]), V[!,:DISABLE])...)');
+    push!(features, hcat(map(x -> Flux.onehot(x, [-9,0,1]), V[!,:STREETS])...)');
+    push!(features, hcat(map(x -> Flux.onehot(x, [-9,0,1]), V[!,:RETIRED])...)');
+    push!(features, hcat(map(x -> Flux.onehot(x, [-9,0,1]), V[!,:THIEF])...)');
+    push!(features, hcat(map(x -> Flux.onehot(x, [-9,0,1]), V[!,:DEALER])...)');
+    push!(features, hcat(map(x -> Flux.onehot(x, [-9,0,1]), V[!,:DRUGMAN])...)');
+    push!(features, hcat(map(x -> Flux.onehot(x, [-9,0,1]), V[!,:PIMP])...)');
+    push!(features, hcat(map(x -> Flux.onehot(x, [-9,0,1]), V[!,:JOHN])...)');
+    push!(features, hcat(map(x -> Flux.onehot(x, [-9,0,1]), V[!,:PRO])...)');
 
     ff = hcat(features...);
     f = [ff[i,:] for i in 1:size(ff,1)];

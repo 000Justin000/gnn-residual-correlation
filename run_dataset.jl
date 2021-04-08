@@ -62,7 +62,7 @@ function run_dataset(network_trans, network_ind, accuracyFun, regressor="zero", 
             θ = params(mlp);
             optθ = ADAM(0.001);
         elseif regressor == "gnn"
-            enc = graph_encoder(length(feats[1]), dim_out, dim_h, repeat(["SAGE_Mean"], 2); σ=relu);
+            enc = graph_encoder(length(feats[1]), dim_out, dim_h, repeat(["SAGE_GCN"], 2); σ=relu);
             reg = Dense(dim_out, 1);
             getRegression = L -> vcat(reg.(enc(G, L, u->feats[u]))...);
             θ = params(enc, reg);
