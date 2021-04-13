@@ -74,4 +74,6 @@ bash run.sh
 ```
 which would write the outputs to [/logs](/logs).
 
+Some script for creating plots in our paper can be found at [/plots](/plots).
+
 If you have any questions, please email to [jj585@cornell.edu](mailto:jj585@cornell.edu).
