@@ -281,19 +281,8 @@ function read_sexual(studynum)
     end
 
     features = [];
-    push!(features, filter_mean_fill(V[!,:OCCPRES], x->x>=0, true));
     push!(features, hcat(map(x -> Flux.onehot(x, collect(1:5)), V[!,:RACE])...)');
-    push!(features, hcat(map(x -> Flux.onehot(x, [0,2]), V[!,:BEHAV])...)');
-    push!(features, hcat(map(x -> Flux.onehot(x, [-9,0,1]), V[!,:UNEMP])...)');
-    push!(features, hcat(map(x -> Flux.onehot(x, [-9,0,1]), V[!,:DISABLE])...)');
-    push!(features, hcat(map(x -> Flux.onehot(x, [-9,0,1]), V[!,:STREETS])...)');
-    push!(features, hcat(map(x -> Flux.onehot(x, [-9,0,1]), V[!,:RETIRED])...)');
-    push!(features, hcat(map(x -> Flux.onehot(x, [-9,0,1]), V[!,:THIEF])...)');
-    push!(features, hcat(map(x -> Flux.onehot(x, [-9,0,1]), V[!,:DEALER])...)');
-    push!(features, hcat(map(x -> Flux.onehot(x, [-9,0,1]), V[!,:DRUGMAN])...)');
-    push!(features, hcat(map(x -> Flux.onehot(x, [-9,0,1]), V[!,:PIMP])...)');
-    push!(features, hcat(map(x -> Flux.onehot(x, [-9,0,1]), V[!,:JOHN])...)');
-    push!(features, hcat(map(x -> Flux.onehot(x, [-9,0,1]), V[!,:PRO])...)');
+    push!(features, filter_mean_fill(V[!,:BEHAV], x -> x>=0, true));
 
     ff = hcat(features...);
     f = [ff[i,:] for i in 1:size(ff,1)];
