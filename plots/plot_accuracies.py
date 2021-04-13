@@ -4,7 +4,6 @@ import matplotlib.pyplot as plt
 plt.rcParams["font.family"] = "amiri"
 plt.rcParams["font.size"] = 14
 
- 
 # set width of bar
 barWidth = 0.20
  
@@ -22,8 +21,8 @@ r3 = [x + barWidth*1.0 for x in r0]
 # Make the plot
 plt.figure(figsize=(9,5))
 plt.bar(r1, bars1, color='#003f5c', width=barWidth, edgecolor='white', label='GNN')
-# plt.bar(r2, bars2, color='#bc5090', width=barWidth, edgecolor='white', label='GNN/RP')
-# plt.bar(r3, bars3, color='#ffa600', width=barWidth, edgecolor='white', label='C-GNN')
+plt.bar(r2, bars2, color='#bc5090', width=barWidth, edgecolor='white', label='LP-GNN')
+plt.bar(r3, bars3, color='#ffa600', width=barWidth, edgecolor='white', label='C-GNN')
  
 # Add xticks on the middle of the group bars
 plt.xlim([-0.5, len(bars1)-0.5])
@@ -35,4 +34,4 @@ plt.yticks([0.2, 0.4, 0.6, 0.8, 1.0])
 # Create legend & Show graphic
 plt.legend(ncol=3, loc=2, fontsize=15)
 plt.tight_layout()
-plt.savefig("results.svg", bbox_inches='tight')
+plt.savefig("figs/accuracies.svg", bbox_inches='tight')
